@@ -42,6 +42,12 @@ ul li {
   display: inline;
   padding: 0px 1rem;
 }
+.mobile-menu {
+  display: none;
+}
+ul {
+  margin-right: 1rem;
+}
 .flex {
   display: flex;
   justify-content: flex-end;
