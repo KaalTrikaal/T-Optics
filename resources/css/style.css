@@ -120,6 +120,7 @@ footer {
   align-items: center;
   padding: 4rem 2rem;
 }
+/* Media Queries for Tablet Responsive */
 @media only screen and (max-width: 1024px) {
   .container {
     width: 100%;
@@ -136,6 +137,7 @@ footer {
     font-size: 1.33rem;
   }
 }
+/* Media Queries for Mobile Responsive */
 @media only screen and (max-width: 480px) {
   .container {
     width: 100%;
@@ -149,6 +151,7 @@ footer {
   header {
     height: 17rem;
     background-position: 20%;
+    overflow: hidden;
   }
   .banner {
     width: 100%;
@@ -156,7 +159,7 @@ footer {
     padding: 1rem 1rem;
   }
   .banner h1 {
-    font-size: 1rem;
+    font-size: 0.66rem;
   }
   .support, .service {
     display: block;
@@ -169,7 +172,11 @@ footer {
     margin: 3rem;
     width: 2.5rem;
   }
+  .info {
+    width: auto;
+  }
   .title {
+    width: auto;
     max-width: 15rem;
     padding: 0.25rem 0.35rem;
     font-size: 12px;
@@ -181,7 +188,9 @@ footer {
     display: none;
   }
 footer img {
-  justify-content: center;
-  align-items: center;
+  overflow: hidden;
+  height: 1rem;
+  margin-left: 2rem;
+  margin-right: 0.5rem;
 }
 }
