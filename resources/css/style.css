@@ -121,6 +121,9 @@ footer {
   padding: 4rem 2rem;
 }
 @media only screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
   header {
     height: 22rem;
   }
@@ -132,4 +135,53 @@ footer {
   .banner h1 {
     font-size: 1.33rem;
   }
+}
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+  .menu {
+    display: none;
+  }
+  header span {
+    display: none;
+  }
+  header {
+    height: 17rem;
+    background-position: 20%;
+  }
+  .banner {
+    width: 100%;
+    margin-top: 6rem;
+    padding: 1rem 1rem;
+  }
+  .banner h1 {
+    font-size: 1rem;
+  }
+  .support, .service {
+    display: block;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .service {
+    height: 6rem;
+    margin: 3rem;
+    width: 2.5rem;
+  }
+  .title {
+    max-width: 15rem;
+    padding: 0.25rem 0.35rem;
+    font-size: 12px;
+  }
+  p {
+    font-size: 12px;
+  }
+  footer span {
+    display: none;
+  }
+footer img {
+  justify-content: center;
+  align-items: center;
+}
 }
